@@ -1,11 +1,12 @@
 """
 1346. Check If N and Its Double Exist
-Given an array arr of integers, 
-check if there exist two indices i and j such that :
+Description:
+    Given an array arr of integers, 
+    check if there exist two indices i and j such that :
 
-i != j
-0 <= i, j < arr.length
-arr[i] == 2 * arr[j]
+    i != j
+    0 <= i, j < arr.length
+    arr[i] == 2 * arr[j]
 
 Example 1:
     Input: arr = [10,2,5,3]
