@@ -36,6 +36,7 @@ class Solution1:
             return n
         else:
             return self.climbStairs(n - 1) + self.climbStairs(n - 2)
+
 # Complexity:
 #     Time: O(n)
 #     Space: O(n)
@@ -55,9 +56,9 @@ class Solution2:
 #     Space: O(1)
 class Solution3:
     def climbStairs(self, n: int) -> int:
-        prev1 = 1
+        prev1 = 0
         prev2 = 1
-        for i in range(n - 1):
+        for i in range(n + 1):
             cur = prev1 + prev2
             prev2 = prev1
             prev1 = cur
@@ -67,9 +68,12 @@ if __name__ == '__main__':
     s1 = Solution1()
     print(s1.climbStairs(2))
     print(s1.climbStairs(4))
+    print(s1.climbStairs(1))
     s2 = Solution2()
     print(s2.climbStairs(2))
     print(s2.climbStairs(4))
+    print(s2.climbStairs(1))
     s3 = Solution3()
     print(s3.climbStairs(2))
     print(s3.climbStairs(4))
+    print(s3.climbStairs(1))
