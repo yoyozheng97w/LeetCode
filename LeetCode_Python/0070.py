@@ -56,13 +56,13 @@ class Solution2:
 #     Space: O(1)
 class Solution3:
     def climbStairs(self, n: int) -> int:
-        prev1 = 0
+        prev1 = 1
         prev2 = 1
-        for i in range(n + 1):
+        for i in range(n - 1):
             cur = prev1 + prev2
             prev2 = prev1
             prev1 = cur
-        return cur
+        return prev1
 
 if __name__ == '__main__':
     s1 = Solution1()
