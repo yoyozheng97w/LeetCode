@@ -26,16 +26,23 @@ Example 2:
     - Pay 1 and climb two steps to reach index 9.
     - Pay 1 and climb one step to reach the top.
     The total cost is 6.
+
+Constraints:
+    2 <= cost.length <= 1000
+    0 <= cost[i] <= 999
 """
+# Complexity:
+#     Time: O(n)
+#     Space: O(1)    
 class Solution:
     def minCostClimbingStairs(self, cost: list[int]) -> int:
-        pay = 0
-        for i in range(len(cost)):
-            pay += min(cost[i - 1], cost[i - 2])
-        return pay
+        n = len(cost)
+        for i in range(2, n):
+            cost[i] += min(cost[i - 1] , cost[i - 2])
+        return min(cost[n - 1], cost[n - 2])
     
 if __name__ == '__main__':
     s = Solution()
     print(s.minCostClimbingStairs([10, 15, 20]))
-    print(s.minCostClimbingStairs([1,100,1,1,1,100,1,1,100,1]))
+    print(s.minCostClimbingStairs([1, 100 ,1 ,1 ,1 ,100 ,1 ,1 ,100, 1]))
     
