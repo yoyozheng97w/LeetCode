@@ -18,7 +18,9 @@ Example 2:
     Output: 0
     Explanation: In this case, no transactions are done and the max profit = 0.
 """
-
+# Complexity:
+#     Time: O(n)
+#     Space: O(1)
 class Solution:
     def maxProfix(self, prices: list[int]) -> int:
         n = len(prices)
