@@ -53,8 +53,7 @@ class Solution1:
             return True
         else:
             return False
-        
-        
+
 class Solution2:
     def getDigitSquare(self, n: int) -> int:
         sum = 0
