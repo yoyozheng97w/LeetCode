@@ -1,5 +1,6 @@
 """
 3152. Special Array II
+
 Description:
     An array is considered special if 
     every pair of its adjacent elements contains two numbers with different parity.
