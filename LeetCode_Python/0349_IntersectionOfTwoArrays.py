@@ -18,7 +18,9 @@ Constraints:
     1 <= nums1.length, nums2.length <= 1000
     0 <= nums1[i], nums2[i] <= 1000
 """
-
+# Complexity:
+#     Time: O(n+m)
+#     Space: O(n+m)
 class Solution:
     def intersection(self, nums1: list[int], nums2: list[int]) -> list[int]:
         set1 = set()
