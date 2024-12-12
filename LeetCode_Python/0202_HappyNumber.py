@@ -28,6 +28,9 @@ Example 2:
 Constraints:
     1 <= n <= 231 - 1
 """
+# Complexity:
+#     Time: O(㏒n)
+#     Space: O(㏒n)
 import time
 class Solution1:
     def isHappy(self, n: int) -> bool:
@@ -64,27 +67,25 @@ class Solution2:
         sumSet = set()
         while (n != 1):
             n = self.getDigitSquare(n)
+            # n = sum(int(i) ** 2 for i in str(n))
             if n in sumSet:
-                break
+                return False
             else:
                 sumSet.add(n)
 
-        if n == 1:
-            return True
-        else:
-            return False
-        
+        return True
+
 if __name__ == '__main__':
     s1 = Solution1()
     t1 = time.time()
     print(s1.isHappy(19))
     print(s1.isHappy(2))
     print(s1.isHappy(1111111))
-    print(time.time() - t1)
-    
+    print(f"s1 run time: {time.time() - t1}")
+
     s2 = Solution2()
     t2 = time.time()
     print(s2.isHappy(19))
     print(s2.isHappy(2))
     print(s2.isHappy(1111111))
-    print(time.time() - t2)
+    print(f"s2 run time: {time.time() - t2}")
