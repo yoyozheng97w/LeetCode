@@ -17,6 +17,9 @@ Example 2:
     Output: -1
     Explanation: 2 does not exist in nums so return -1
 """
+# Complexity:
+#     Time: O(㏒n)
+#     Space: O(1)
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
         n = len(nums)
