@@ -33,6 +33,10 @@ Example 3:
 #          otherwise return 0
 # def guess(num: int) -> int:
 
+
+# Complexity:
+#     Time: O(㏒n)
+#     Space: O(1)
 class Solution:
     def guessNumber(self, n: int) -> int:
         left = 1
