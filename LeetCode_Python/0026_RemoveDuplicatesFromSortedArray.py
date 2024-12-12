@@ -1,5 +1,5 @@
 """
-26. Remove Duplicates from Sorted Array
+26. Remove Duplicates From Sorted Array
 
 Description:
     Given an integer array nums sorted in non-decreasing order, 
