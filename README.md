@@ -10,4 +10,4 @@
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | O(n²) |  O(n) | easy |  |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | O(n) |  O(1) | easy | DP |
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | O(n) |  O(1) | medium | Greedy |
-| 0349 | [Intersection of Two Arrays]((https://leetcode.com/problems/intersection-of-two-arrays/description/)) | O(n+m) |  O(n+m) | easy |  |
+| 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | O(n+m) |  O(n+m) | easy |  |
