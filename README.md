@@ -11,3 +11,7 @@
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | O(n) |  O(1) | easy | DP |
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | O(n) |  O(1) | medium | Greedy |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | O(n+m) |  O(n+m) | easy |  |
+| 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | O(n+m) |  O(n) | easy | Hash Table |
+| 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | O(㏒n) |  O(1) | easy | Binary Search |
+| 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | O(n) |  O(1) | easy | DP |
+| 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | O(n) |  O(n) | easy | Hash Table |
