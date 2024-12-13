@@ -34,15 +34,20 @@ Constraints:
     -100 <= nums[i] <= 100
     nums is sorted in non-decreasing order.
 """
+# Complexity:
+#     Time: O(n)
+#     Space: O(n)
 class Solution1:
     def removeDuplicates(self, nums: list[int]) -> int:
         numsSet = set()
         for num in nums:
             numsSet.add(num)
         nums = list(numsSet)
-        print(nums)
         return len(numsSet)
     
+# Complexity:
+#     Time: O(n)
+#     Space: O(1)
 class Solution2:
     def removeDuplicates(self, nums: list[int]) -> int:
         k = 1
