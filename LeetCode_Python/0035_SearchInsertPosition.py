@@ -22,7 +22,7 @@ Example 3:
 """
 
 # Complexity:
-#     Time: O(logn)
+#     Time: O(㏒n)
 #     Space: O(1)
 class Solution:
     def searchInsert(self, nums: list[int], target: int) -> int:
