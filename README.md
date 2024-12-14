@@ -1,4 +1,4 @@
-# Algorithms
+## Algorithms
 + [Array](https://github.com/yoyozheng97w/LeetCode#array)
 + [String](https://github.com/yoyozheng97w/LeetCode#string)
 + [DP](https://github.com/yoyozheng97w/LeetCode#dp)
@@ -26,10 +26,14 @@
 | 3152 | [Special Array II](https://leetcode.com/problems/special-array-ii/) | [Python](./LeetCode_Python/3152_SpecialArray_II.py) | O(n*k) |  O(1) | 🟡 Medium | |
 
 
-<div align="right">
-  <b><a href="https://github.com/yoyozheng97w/LeetCode/#algorithms">⬆️ Back to Top</a></b>
-</div>
 
+<br/>
+<div align="right">
+    <b><a href="#algorithms">⬆️ Back to Top</a></b>
+</div>
+<br/>
+
+[Back to Top](#algorithms)
 
 # String
 |  #   | Title | solution | Time  | Space | Difficulty | Note |
