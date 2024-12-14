@@ -1,7 +1,7 @@
 ## Algorithms
 + [Array](https://github.com/yoyozheng97w/LeetCode#array)
 + [String](https://github.com/yoyozheng97w/LeetCode#string)
-+ [DP](https://github.com/yoyozheng97w/LeetCode#dp)
++ [DP](#dp)
 
 # Array  
 
@@ -25,7 +25,16 @@
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i/) | [Python](./LeetCode_Python/3151_SpecialArray_I.py) | O(n) |  O(1) | 🟢 Easy | |
 | 3152 | [Special Array II](https://leetcode.com/problems/special-array-ii/) | [Python](./LeetCode_Python/3152_SpecialArray_II.py) | O(n*k) |  O(1) | 🟡 Medium | |
 
+<br/>
+<div align="right">
+    <b><a href="#algorithms">⬆️ Back to Top</a></b>
+</div>
+<br/>
 
+# String
+|  #   | Title | solution | Time  | Space | Difficulty | Note |
+| ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
+| 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Python](./LeetCode_Python/0070_ClimbingStairs.py) | O(n*k)|  O(k) | 🟢 Easy | |
 
 <br/>
 <div align="right">
@@ -33,23 +42,14 @@
 </div>
 <br/>
 
-[Back to Top](#algorithms)
-
-# String
-|  #   | Title | solution | Time  | Space | Difficulty | Note |
-| ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
-| 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Python](./LeetCode_Python/0070_ClimbingStairs.py) | O(n*k)|  O(k) | 🟢 Easy | |
-
-<div align="right">
-  <b><a href="https://github.com/yoyozheng97w/LeetCode/#algorithms">⬆️ Back to Top</a></b>
-</div>
-
 # DP
 |  #   | Title | solution | Time  | Space | Difficulty | Note |
 | ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [Python](./LeetCode_Python/0070_ClimbingStairs.py) | O(n)|  O(1) | 🟢 Easy | |
 
 
+<br/>
 <div align="right">
-  <b><a href="https://github.com/yoyozheng97w/LeetCode/#algorithms">⬆️ Back to Top</a></b>
+    <b><a href="#algorithms">⬆️ Back to Top</a></b>
 </div>
+<br/>
