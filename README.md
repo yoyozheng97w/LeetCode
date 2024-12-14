@@ -1,6 +1,6 @@
 # Algorithms
-+ [Array](https://github.com/yoyozheng97w/LeetCode/main/README.md#array)
-+ [#String](https://github.com/yoyozheng97w/LeetCode/main/README.md#array)
++ [Array](https://github.com/yoyozheng97w/LeetCode?tab=readme-ov-file#array)
++ [String](https://github.com/yoyozheng97w/LeetCode?tab=readme-ov-file#string)
 + [DP](https://github.com/yoyozheng97w/LeetCode?tab=readme-ov-file#dp)
 
 
