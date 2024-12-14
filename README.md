@@ -7,18 +7,18 @@
 
 
 # Array  
-|  #   | Title |  Time | Space | Difficulty | Note |
-| ---- | ----- | ----- | ----- | ---------- | ---- |
-| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | O(n)|  O(n) | 🟢 Easy | Hash Table |
-| 0026 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) |  O(n)|  O(1) | 🟢 Easy | |
-| 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | O(n)|  O(1) | 🟢 Easy |  |
-| 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | O(㏒n)|  O(1) | 🟢 Easy | Binary Search |
-| 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | O(n)|  O(n) | 🟡 Medium | Sort |
-| 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | O(n + m) |  O(1) | 🟢 Easy | Binary Search |
-| 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | O(n²) |  O(n) | 🟢 Easy |  |
-| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | O(n) |  O(1) | 🟢 Easy | DP |
-| 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | O(n) |  O(1) | 🟡 Medium | Greedy |
-| 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | O(n+m) |  O(n+m) | 🟢 Easy |  |
+|  #   | Title | solution | Time  | Space | Difficulty | Note |
+| ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
+| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Python](./LeetCode_Python/0001_TwoSum.py) | O(n) | O(n) | 🟢 Easy | Hash Table |
+| 0026 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0026_RemoveDuplicatesFromSortedArray.py) | O(n) | O(1) | 🟢 Easy | |
+| 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | O(n) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0027_RemoveElement.py) |  O(1) | 🟢 Easy |  |
+| 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0035_SearchInsertPosition.py) | O(㏒n)|  O(1) | 🟢 Easy | Binary Search |
+| 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0056_MergeIntervals.py) | O(n) |  O(n) | 🟡 Medium | Sort |
+| 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0088_MergeSortedArray.py) | O(n + m) |  O(1) | 🟢 Easy | Binary Search |
+| 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0118_Pascal'sTriangle.py) | O(n²) |  O(n) | 🟢 Easy |  |
+| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0121_BestTimeToBuyAndSellStock.py) | O(n) |  O(1) | 🟢 Easy | DP |
+| 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0122_BestTimeToBuyAndSellStock_II.py) | O(n) |  O(1) | 🟡 Medium | Greedy |
+| 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0349_IntersectionOfTwoArrays.py) | O(n+m) |  O(n+m) | 🟢 Easy |  |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | O(n+m) |  O(n) | 🟢 Easy | Hash Table |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | O(㏒n) |  O(1) | 🟢 Easy | Binary Search |
 | 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | O(n) |  O(1) | 🟢 Easy | DP |
@@ -37,6 +37,6 @@
 
 
 # DP
-|  #   | Title |  Time | Space | Difficulty | Note |
-| ---- | ----- | ----- | ----- | ---------- | ---- |
-| 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | O(n)|  O(1) | 🟢 Easy | |
+|  #   | Title | solution | Time  | Space | Difficulty | Note |
+| ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
+| 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0070_ClimbingStairs.py) | O(n)|  O(1) | 🟢 Easy | |
