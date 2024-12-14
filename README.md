@@ -1,6 +1,6 @@
 ## Algorithms
-+ [Array](https://github.com/yoyozheng97w/LeetCode#array)
-+ [String](https://github.com/yoyozheng97w/LeetCode#string)
++ [Array](#array)
++ [String](#string)
 + [DP](#dp)
 
 # Array  
