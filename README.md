@@ -2,8 +2,10 @@
 + [Array](#array)
 + [String](#string)
 + [DP](#dp)
-
++ 
+<h3 align="center">Portfolio</h3>
 # Array  
+
 
 |  #   | Title | solution | Time  | Space | Difficulty | Note |
 | ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
@@ -53,3 +55,6 @@
     <b><a href="#algorithms">⬆️ Back to Top</a></b>
 </div>
 <br/>
+
+<br><hr>
+[🔼 Back to top](#Portfolio)
