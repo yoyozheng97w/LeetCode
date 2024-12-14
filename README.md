@@ -2,11 +2,8 @@
 + [Array](#array)
 + [String](#string)
 + [DP](#dp)
-+ 
-<h3 align="center">Portfolio</h3>
+
 # Array  
-
-
 |  #   | Title | solution | Time  | Space | Difficulty | Note |
 | ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Python](./LeetCode_Python/0001_TwoSum.py) | O(n) | O(n) | 🟢 Easy | Hash Table |
@@ -56,5 +53,3 @@
 </div>
 <br/>
 
-<br><hr>
-[🔼 Back to top](#Portfolio)
