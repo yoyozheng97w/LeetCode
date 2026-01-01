@@ -7,6 +7,7 @@
 |  #   | Title | solution | Time  | Space | Difficulty | Note |
 | ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Python](./LeetCode_Python/0001_TwoSum.py) | O(n) | O(n) | 🟢 Easy | Hash Table |
+| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [Python](./LeetCode_Python/0020_ValidParentheses.py) | O(n) | O(n) | 🟢 Easy | Hash Table |
 | 0026 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Python](./LeetCode_Python/0026_RemoveDuplicatesFromSortedArray.py) | O(n) | O(1) | 🟢 Easy | |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./LeetCode_Python/0027_RemoveElement.py) | O(n) |  O(1) | 🟢 Easy |  |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./LeetCode_Python/0035_SearchInsertPosition.py) | O(㏒n)|  O(1) | 🟢 Easy | Binary Search |
