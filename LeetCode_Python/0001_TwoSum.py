@@ -41,15 +41,11 @@ class Solution1:
 #         Space: O(n)
 class Solution2:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-        n = len(nums)
         dic = {}
-        for i in range(n):
+        for i in range(len(nums)):
+            if (target - nums[i] in dic):
+                return [dic[target - nums[i]], i]
             dic[nums[i]] = i
-
-        for i in range(n):
-            diff = target - nums[i]
-            if(diff in dic) and (dic[diff] != i):
-                return [i, dic[diff]]
             
 if __name__ == '__main__':
     s1 = Solution1()
