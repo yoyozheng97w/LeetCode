@@ -1,5 +1,6 @@
 ## Algorithms
 + [Array](#array)
++ [Stack](#stack)
 + [String](#string)
 + [DP](#dp)
 
