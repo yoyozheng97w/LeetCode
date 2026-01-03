@@ -59,7 +59,7 @@ class Solution2:
         res = []
         specialArr = [0] * n
         # specialArr[i]: nums[i] 到前幾個數列為 special
-        # 例：specialArr[4] = 2 -> nums[4] ~ nums[2] 是 special array
+        # 例：specialArr[4] = 2 -> nums[4-2] ~ nums[4] 是 special array
         for i in range(n - 1):
             if nums[i + 1] % 2 != nums[i] % 2:
                 specialArr[i + 1] = specialArr[i] + 1
