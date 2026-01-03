@@ -11,6 +11,7 @@
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./LeetCode_Python/0027_RemoveElement.py) | O(n) |  O(1) | 🟢 Easy |  |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./LeetCode_Python/0035_SearchInsertPosition.py) | O(㏒n)|  O(1) | 🟢 Easy | Binary Search |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./LeetCode_Python/0056_MergeIntervals.py) | O(n) |  O(n) | 🟡 Medium | Sort |
+| 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./LeetCode_Python/0066_PlusOne.py) | O(n) |  O(1) | 🟢 Easy | |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](./LeetCode_Python/0088_MergeSortedArray.py) | O(n + m) |  O(1) | 🟢 Easy | Binary Search|
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./LeetCode_Python/0118_Pascal'sTriangle.py) | O(n²) |  O(n) | 🟢 Easy |  |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./LeetCode_Python/0121_BestTimeToBuyAndSellStock.py) | O(n) |  O(1) | 🟢 Easy | DP |
