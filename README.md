@@ -21,7 +21,7 @@
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](./LeetCode_Python/0350_IntersectionOfTwoArrays_II.py) | O(n+m) |  O(n) | 🟢 Easy | Hash Table |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) |[Python](./LeetCode_Python/0704_BinarySearch.py) | O(㏒n) |  O(1) | 🟢 Easy | Binary Search |
 | 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python](./LeetCode_Python/0746_MinCostClimbingStairs.py) | O(n) |  O(1) | 🟢 Easy | DP |
-| 0977 | [0977_Squares of a Stored Array](https://leetcode.com/problems/squares-of-a-stored-array/) | [Python](./LeetCode_Python/0977_0977_SquaresOfAStoredArray.py) | O(n) |  O(n) | 🟢 Easy | Two Pointers |
+| 0977 | [Squares of a Stored Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](./LeetCode_Python/0977_SquaresOfAStoredArray.py) | O(n) |  O(n) | 🟢 Easy | Two Pointers |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) |[Python](./LeetCode_Python/1346_CheckIfNandItsDoubleExist.py)| O(n) |  O(n) | 🟢 Easy | Hash Table |
 | 2037 | [Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/) | [Python](./LeetCode_Python/2037_MinimumNumberOfMovesToSeatEveryone.py) | O(n㏒n) |  O(1) | 🟢 Easy | |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i/) | [Python](./LeetCode_Python/3151_SpecialArray_I.py) | O(n) |  O(1) | 🟢 Easy | |
