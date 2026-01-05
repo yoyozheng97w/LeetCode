@@ -23,33 +23,12 @@ Constraints:
     1 <= target <= 109
     1 <= nums.length <= 105
     1 <= nums[i] <= 104
-"""
-# Complexity:
-#     Time: O(n)
-#     Space: O(n)
-class Solution:
-    def minSubArrayLen(self, target: int, nums: list[int]) -> int:
-        arr_sum = [int] * len(nums)
-        for i in range(len(nums)):
-            if i == 0:
-                arr_sum[i] = nums[i]
-            else:
-                arr_sum[i] = arr_sum[i-1] + nums[i]
-
-        if arr_sum[len(nums) - 1] < target:
-            return 0
-        
-        res = len(nums)
-        for i in range(len(nums)):
-            if arr_sum[len(nums)-1] - arr_sum[i] >= target:
-                res -= 1
-            else:
-                return res
+"""            
 
 # Complexity:
 #     Time: O(n)
 #     Space: O(1)
-class TwoPointersSolution:
+class Solution:
     def minSubArrayLen(self, target: int, nums: list[int]) -> int:
         l = 0
         cur_sum = 0
@@ -68,12 +47,8 @@ class TwoPointersSolution:
             return min_len
 
 if __name__ == '__main__':
-    s1 = Solution()
-    print(s1.minSubArrayLen(7, [2,3,1,2,4,3]))
-    print(s1.minSubArrayLen(4, [1,4,4]))
-    print(s1.minSubArrayLen(11, [1,1,1,1,1,1,1,1]))
-
-    s2 = TwoPointersSolution()
-    print(s2.minSubArrayLen(7, [2,3,1,2,4,3]))
-    print(s2.minSubArrayLen(4, [1,4,4]))
-    print(s2.minSubArrayLen(11, [1,1,1,1,1,1,1,1]))
+    s = Solution()
+    print(s.minSubArrayLen(7, [2,3,1,2,4,3]))
+    print(s.minSubArrayLen(4, [1,4,4]))
+    print(s.minSubArrayLen(11, [1,1,1,1,1,1,1,1]))
+    print(s.minSubArrayLen(15, [5,1,3,5,10,7,4,9,2,8]))
