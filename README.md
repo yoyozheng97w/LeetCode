@@ -49,6 +49,7 @@
 | ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Python](./LeetCode_Python/0013_RomanToInteger.py) | O(n)|  O(1) | 🟢 Easy | Hash Table|
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Python](./LeetCode_Python/0014_LongestCommonPrefix.py) | O(n*k)|  O(k) | 🟢 Easy | |
+| 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [Python](./LeetCode_Python/0058_LengthOfLastWord.py) | O(n) |  O(1) | 🟢 Easy |  |
 
 
 <br/>
