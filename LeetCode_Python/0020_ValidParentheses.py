@@ -29,25 +29,23 @@ class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
         dic = {
-            ")": "(", 
-            "]": "[", 
+            ")": "(",
+            "]": "[",
             "}": "{"
         }
-        for i in range(len(s)):
-            if s[i] in dic.values():
-                stack.append(s[i])
-            elif s[i] in dic:
-                if not stack or dic[s[i]] != stack.pop():
-                    return False
+        for char in s:
+            if char in dic.values():
+                stack.append(char)
+            elif not stack or dic[char] != stack.pop():
+                return False
         if len(stack) != 0:
             return False
         else:
             return True
-        
+
 if __name__ == '__main__':
     s = Solution()
     print(s.isValid("([])"))
     print(s.isValid("()[]{}"))
     print(s.isValid("(]"))
     print(s.isValid("]"))
-    
