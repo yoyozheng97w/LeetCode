@@ -19,7 +19,8 @@
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./LeetCode_Python/0121_BestTimeToBuyAndSellStock.py) | O(n) |  O(1) | 🟢 Easy | DP |
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | [Python](./LeetCode_Python/0122_BestTimeToBuyAndSellStock_II.py) | O(n) |  O(1) | 🟡 Medium | Greedy |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/) | [Python](./LeetCode_Python/0209_MinimumSizeSubarraySum.py) | O(n) |  O(1) | 🟡 Medium | Two Pointers |
-| 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Python](./LeetCode_Python/0217_ContainsDuplicate.py) | O(n) |  O(1) |  🟢 Easy | Set |
+| 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Python](./LeetCode_Python/0217_ContainsDuplicate.py) | O(n) |  O(n) |  🟢 Easy | Set |
+| 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](./LeetCode_Python/0219_ContainsDuplicateII.py) | O(n) |  O(n) |  🟢 Easy | Hash Table |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0349_IntersectionOfTwoArrays.py) | O(n+m) |  O(n+m) | 🟢 Easy |  |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](./LeetCode_Python/0350_IntersectionOfTwoArrays_II.py) | O(n+m) |  O(n) | 🟢 Easy | Hash Table |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) |[Python](./LeetCode_Python/0704_BinarySearch.py) | O(㏒n) |  O(1) | 🟢 Easy | Binary Search |
@@ -51,7 +52,7 @@
 | ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Python](./LeetCode_Python/0013_RomanToInteger.py) | O(n)|  O(1) | 🟢 Easy | Hash Table|
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Python](./LeetCode_Python/0014_LongestCommonPrefix.py) | O(n*k)|  O(k) | 🟢 Easy | |
-| 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [Python](./LeetCode_Python/0058_LengthOfLastWord.py) | O(n) |  O(1) | 🟢 Easy |  |
+| 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [Python](./LeetCode_Python/0058_LengthOfLastWord.py) | O(k) |  O(1) | 🟢 Easy |  |
 
 
 <br/>
