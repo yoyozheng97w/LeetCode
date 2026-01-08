@@ -28,7 +28,7 @@ Constraints:
     There will be at least one word in s.
 """
 # Complexity:
-#     Time: O(n)
+#     Time: O(k)
 #     Space: O(1)
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
