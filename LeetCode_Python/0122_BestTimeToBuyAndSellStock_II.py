@@ -38,11 +38,14 @@ Constraints:
 #     Space: O(1)
 class Solution:
     def maxProfit(self, prices: list[int]) -> int:
-        n = len(prices)
-        profit = 0
-        for i in range(1, n):
-            if prices[i] > prices[i-1]:
-                profit += prices[i] - prices[i - 1]
+        profit = 0 # 獲利
+        buy_price = prices[0] # 買點
+        # 每天都把買點更新，若隔天價錢 > 買點 -> 賣掉
+        for price in prices:
+            tmp_profit = price - buy_price
+            if tmp_profit > 0:
+                profit += tmp_profit
+            buy_price = price
         return profit
     
 if __name__ == '__main__':
