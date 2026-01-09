@@ -21,7 +21,8 @@
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/) | [Python](./LeetCode_Python/0209_MinimumSizeSubarraySum.py) | O(n) |  O(1) | 🟡 Medium | Two Pointers |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Python](./LeetCode_Python/0217_ContainsDuplicate.py) | O(n) |  O(n) |  🟢 Easy | Set |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](./LeetCode_Python/0219_ContainsDuplicateII.py) | O(n) |  O(n) |  🟢 Easy | Hash Table |
-| 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | [Python](https://github.com/yoyozheng97w/LeetCode/blob/main/LeetCode_Python/0349_IntersectionOfTwoArrays.py) | O(n+m) |  O(n+m) | 🟢 Easy |  |
+| 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | [Python](./LeetCode_Python/0242_ValidAnagram.py) | O(n) |  O(k) |  🟢 Easy | Hash Table |
+| 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | [Python](./LeetCode_Python/0349_IntersectionOfTwoArrays.py) | O(n+m) |  O(n+m) | 🟢 Easy |  |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](./LeetCode_Python/0350_IntersectionOfTwoArrays_II.py) | O(n+m) |  O(n) | 🟢 Easy | Hash Table |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) |[Python](./LeetCode_Python/0704_BinarySearch.py) | O(㏒n) |  O(1) | 🟢 Easy | Binary Search |
 | 0746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Python](./LeetCode_Python/0746_MinCostClimbingStairs.py) | O(n) |  O(1) | 🟢 Easy | DP |
