@@ -12,6 +12,7 @@
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./LeetCode_Python/0027_RemoveElement.py) | O(n) |  O(1) | 🟢 Easy |  |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./LeetCode_Python/0035_SearchInsertPosition.py) | O(㏒n)|  O(1) | 🟢 Easy | Binary Search |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [Python](./LeetCode_Python/0049_GroupAnagrams.py) | O(n*k) |  O(n*k) | 🟡 Medium | defalutdict |
+| 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Python](./LeetCode_Python/0054_SpiralMatrix.py) | O(n²) |  O(n²) | 🟡 Medium |  |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./LeetCode_Python/0056_MergeIntervals.py) | O(n) |  O(n) | 🟡 Medium | Sort |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) | [Python](./LeetCode_Python/0059_SpiralMatrixII.py) | O(n²) |  O(n²) | 🟡 Medium | 2D Matrix |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./LeetCode_Python/0066_PlusOne.py) | O(n) |  O(1) | 🟢 Easy | |
