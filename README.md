@@ -11,7 +11,6 @@
 | 0026 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Python](./LeetCode_Python/0026_RemoveDuplicatesFromSortedArray.py) | O(n) | O(1) | 🟢 Easy | |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./LeetCode_Python/0027_RemoveElement.py) | O(n) |  O(1) | 🟢 Easy |  |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Python](./LeetCode_Python/0035_SearchInsertPosition.py) | O(㏒n)|  O(1) | 🟢 Easy | Binary Search |
-| 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [Python](./LeetCode_Python/0049_GroupAnagrams.py) | O(n*k) |  O(n*k) | 🟡 Medium | defalutdict |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Python](./LeetCode_Python/0054_SpiralMatrix.py) | O(n²) |  O(n²) | 🟡 Medium |  |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./LeetCode_Python/0056_MergeIntervals.py) | O(n) |  O(n) | 🟡 Medium | Sort |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/) | [Python](./LeetCode_Python/0059_SpiralMatrixII.py) | O(n²) |  O(n²) | 🟡 Medium | 2D Matrix |
@@ -23,7 +22,6 @@
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/) | [Python](./LeetCode_Python/0209_MinimumSizeSubarraySum.py) | O(n) |  O(1) | 🟡 Medium | Two Pointers |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [Python](./LeetCode_Python/0217_ContainsDuplicate.py) | O(n) |  O(n) |  🟢 Easy | Set |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](./LeetCode_Python/0219_ContainsDuplicateII.py) | O(n) |  O(n) |  🟢 Easy | Hash Table |
-| 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | [Python](./LeetCode_Python/0242_ValidAnagram.py) | O(n) |  O(k) |  🟢 Easy | Hash Table |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | [Python](./LeetCode_Python/0349_IntersectionOfTwoArrays.py) | O(n+m) |  O(n+m) | 🟢 Easy |  |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](./LeetCode_Python/0350_IntersectionOfTwoArrays_II.py) | O(n+m) |  O(n) | 🟢 Easy | Hash Table |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) |[Python](./LeetCode_Python/0704_BinarySearch.py) | O(㏒n) |  O(1) | 🟢 Easy | Binary Search |
@@ -55,7 +53,9 @@
 | ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | [Python](./LeetCode_Python/0013_RomanToInteger.py) | O(n)|  O(1) | 🟢 Easy | Hash Table|
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | [Python](./LeetCode_Python/0014_LongestCommonPrefix.py) | O(n*k)|  O(k) | 🟢 Easy | |
+| 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [Python](./LeetCode_Python/0049_GroupAnagrams.py) | O(n*k) |  O(n*k) | 🟡 Medium | defalutdict |
 | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [Python](./LeetCode_Python/0058_LengthOfLastWord.py) | O(k) |  O(1) | 🟢 Easy |  |
+| 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | [Python](./LeetCode_Python/0242_ValidAnagram.py) | O(n) |  O(k) |  🟢 Easy | Hash Table |
 
 
 <br/>
