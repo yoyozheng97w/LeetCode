@@ -36,10 +36,10 @@ class Solution:
             countChar = [0] * 26
             for c in s:
                 countChar[ord(c) - ord('a')] += 1
-            # Python 的字典 (dict) 的鍵 (key) 不能 是列表 (list)。
+            #  Python 的 dictionary 的 key 不能是 list。
             # 字典的鍵必須是「可哈希的」(hashable) 且「不可變的」(immutable)。
-            # list 是可變對象，若作為鍵會導致哈希值改變，無法穩定地查找。
-            # 若需要以序列為鍵，請使用元組 (tuple) 代替。 
+            # list 是可變對象，若作為 key 會導致哈希值改變，無法穩定地查找。
+            # 若需要以序列為鍵，需用 tuple 代替。  
             res[tuple(countChar)].append(s)
         return list(res.values())
     
