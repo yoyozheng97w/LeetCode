@@ -15,6 +15,7 @@
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./LeetCode_Python/0056_MergeIntervals.py) | O(n) |  O(n) | 🟡 Medium | Sort |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./LeetCode_Python/0059_SpiralMatrixII.py) | O(n²) |  O(n²) | 🟡 Medium | 2D Matrix |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./LeetCode_Python/0066_PlusOne.py) | O(n) |  O(1) | 🟢 Easy | |
+| 0074 | [Search A 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./LeetCode_Python/0074_SearchA2DMatrix.py) | O(㏒(m∗n)) |  O(1) | 🟡 Medium | |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](./LeetCode_Python/0088_MergeSortedArray.py) | O(n + m) |  O(1) | 🟢 Easy | Binary Search|
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./LeetCode_Python/0118_Pascal'sTriangle.py) | O(n²) |  O(n) | 🟢 Easy |  |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./LeetCode_Python/0121_BestTimeToBuyAndSellStock.py) | O(n) |  O(1) | 🟢 Easy | DP |
