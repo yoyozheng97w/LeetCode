@@ -94,6 +94,7 @@
 |  #   | Title | solution | Time  | Space | Difficulty | Note |
 | ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](./LeetCode_Python/0020_ValidParentheses.py) | O(n) | O(n) | 🟢 Easy | String |
+| 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./LeetCode_Python/0155_MinStack.py) | O(1) | O(n) | 🟡 Medium |  |
 <br/>
 <div align="right">
     <b><a href="#algorithms">⬆️ Back to Top</a></b>
