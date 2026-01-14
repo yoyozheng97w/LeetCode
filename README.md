@@ -1,8 +1,10 @@
 ## Algorithms
 + [Array](#array)
-+ [Stack](#stack)
 + [String](#string)
++ [Binary Search](#binary-search)
 + [DP](#dp)
++ [Greedy](#greedy)
++ [Stack](#stack)
 
 # Array  
 |  #   | Title | solution | Time  | Space | Difficulty | Note |
