@@ -18,6 +18,7 @@
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./LeetCode_Python/0066_PlusOne.py) | O(n) |  O(1) | 🟢 Easy | |
 | 0074 | [Search A 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./LeetCode_Python/0074_SearchA2DMatrix.py) | O(㏒(m∗n)) |  O(1) | 🟡 Medium | Binary Search |
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./LeetCode_Python/0118_PascalsTriangle.py) | O(n²) |  O(n) | 🟢 Easy |  |
+| 0167 | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./LeetCode_Python/0167_TwoSumII.py) | O(n) |  O(1) | 🟡 Medium | Two Pointers |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](./LeetCode_Python/0209_MinimumSizeSubarraySum.py) | O(n) |  O(1) | 🟡 Medium | Two Pointers |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./LeetCode_Python/0217_ContainsDuplicate.py) | O(n) |  O(n) |  🟢 Easy | Set |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](./LeetCode_Python/0219_ContainsDuplicateII.py) | O(n) |  O(n) |  🟢 Easy | Hash Table |
