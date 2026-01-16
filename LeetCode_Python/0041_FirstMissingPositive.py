@@ -37,7 +37,7 @@ class Solution:
 
         n = len(nums)
         
-        # 當 0 < nums[i] <= n 時，把 nums[i] 放到 index i-1 的位置
+        # 當 0 < nums[i] <= n 時，把 nums[i] 放到 index num[i]-1 的位置
         for i in range(n):
             while 0 < nums[i] <= n and nums[i] != nums[nums[i] - 1]:
                 swap(nums, i, nums[i] - 1)
@@ -51,9 +51,12 @@ class Solution:
         return n + 1   
         
         
-        
-s = Solution()
-print(s.firstMissingPositive([3,4,-1,1]))
+if __name__ == '__main__':      
+    s = Solution()
+    print(s.firstMissingPositive([1,2,0]))
+    print(s.firstMissingPositive([3,4,-1,1]))
+    print(s.firstMissingPositive([7,8,9,11,12]))
+    print(s.firstMissingPositive([1,1]))
 
 """
 note:
