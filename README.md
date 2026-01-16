@@ -12,6 +12,7 @@
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./LeetCode_Python/0001_TwoSum.py) | O(n) | O(n) | 🟢 Easy | Hash Table |
 | 0026 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](./LeetCode_Python/0026_RemoveDuplicatesFromSortedArray.py) | O(n) | O(1) | 🟢 Easy | |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./LeetCode_Python/0027_RemoveElement.py) | O(n) |  O(1) | 🟢 Easy |  |
+| 0041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Python](./LeetCode_Python/0041_FirstMissingPositive.py) | O(n) |  O(1) | 🔴 Hard |  |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./LeetCode_Python/0054_SpiralMatrix.py) | O(n²) |  O(n²) | 🟡 Medium |  |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./LeetCode_Python/0056_MergeIntervals.py) | O(n) |  O(n) | 🟡 Medium | Sort |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./LeetCode_Python/0059_SpiralMatrixII.py) | O(n²) |  O(n²) | 🟡 Medium | 2D Matrix |
