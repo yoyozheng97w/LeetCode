@@ -22,6 +22,7 @@
 | 0167 | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./LeetCode_Python/0167_TwoSumII.py) | O(n) |  O(1) | 🟡 Medium | Two Pointers |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](./LeetCode_Python/0209_MinimumSizeSubarraySum.py) | O(n) |  O(1) | 🟡 Medium | Two Pointers |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Python](./LeetCode_Python/0217_ContainsDuplicate.py) | O(n) |  O(n) |  🟢 Easy | Set |
+| 0218 | [Longest Consecutives Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Python](./LeetCode_Python/0218_LongestConsecutiveSequence.py) | O(n) |  O(n) |  🟡 Medium | Set |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Python](./LeetCode_Python/0219_ContainsDuplicateII.py) | O(n) |  O(n) |  🟢 Easy | Hash Table |
 | 0238 | [Products of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./LeetCode_Python/0238_ProductsOfArrayExceptSelf.py) | O(n) |  O(n) |  🟡 Medium | Two Pointers |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Python](./LeetCode_Python/0347_TopKFrequentElements.py) | O(n㏒n) |  O(n) | 🟡 Medium |  |
