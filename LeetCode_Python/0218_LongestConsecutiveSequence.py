@@ -31,7 +31,7 @@ class Solution:
     def longestConsecutive(self, nums: list[int]) -> int:
         numSet = set(nums)
         longest = 0
-        for num in nums:
+        for num in numSet:
             # check if it is the start of a sequence
             if num - 1 not in numSet:
                 length = 0
@@ -45,3 +45,4 @@ if __name__ == '__main__':
     print(s.longestConsecutive([100,4,200,1,3,2]))
     print(s.longestConsecutive([0,3,7,2,5,8,4,6,0,1]))
     print(s.longestConsecutive([1,0,1,2]))
+    print(s.longestConsecutive([0,1,0,1,2]))
