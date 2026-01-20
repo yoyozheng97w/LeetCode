@@ -51,6 +51,7 @@
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](./LeetCode_Python/0125_ValidPalindrome.py) | O(n) |  O(1) | 🟢 Easy |  Two Pointers |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./LeetCode_Python/0242_ValidAnagram.py) | O(n) |  O(k) |  🟢 Easy | Hash Table |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./LeetCode_Python/0344_ReverseString.py) | O(n) |  O(1) |  🟢 Easy |  |
+| 1002 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Python](./LeetCode_Python/1002_FindCommonCharacters.py) | O(n*k) |  O(1) |  🟢 Easy |  |
 
 <br/>
 <div align="right">
