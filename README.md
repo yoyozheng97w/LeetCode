@@ -1,10 +1,24 @@
 ## Algorithms
++ [Mathematics](#mathematics)
 + [Array](#array)
 + [String](#string)
 + [Binary Search](#binary-search)
 + [DP](#dp)
 + [Greedy](#greedy)
 + [Stack](#stack)
+
+
+# Mathematics  
+|  #   | Title | solution | Time  | Space | Difficulty | Note |
+| ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
+| 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./LeetCode_Python/0066_PlusOne.py) | O(n) |  O(1) | 🟢 Easy | Array |
+| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](./LeetCode_Python/0412_FizzBuzz.py) | O(n) | O(n) | 🟢 Easy |  |
+
+<br/>
+<div align="right">
+    <b><a href="#algorithms">⬆️ Back to Top</a></b>
+</div>
+<br/>
 
 # Array  
 |  #   | Title | solution | Time  | Space | Difficulty | Note |
@@ -17,7 +31,6 @@
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./LeetCode_Python/0054_SpiralMatrix.py) | O(n²) |  O(n²) | 🟡 Medium |  |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./LeetCode_Python/0056_MergeIntervals.py) | O(n) |  O(n) | 🟡 Medium | Sort |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | [Python](./LeetCode_Python/0059_SpiralMatrixII.py) | O(n²) |  O(n²) | 🟡 Medium | 2D Matrix |
-| 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./LeetCode_Python/0066_PlusOne.py) | O(n) |  O(1) | 🟢 Easy | |
 | 0074 | [Search A 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Python](./LeetCode_Python/0074_SearchA2DMatrix.py) | O(㏒(m∗n)) |  O(1) | 🟡 Medium | Binary Search |
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./LeetCode_Python/0118_PascalsTriangle.py) | O(n²) |  O(n) | 🟢 Easy |  |
 | 0167 | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Python](./LeetCode_Python/0167_TwoSumII.py) | O(n) |  O(1) | 🟡 Medium | Two Pointers |
@@ -51,7 +64,7 @@
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Python](./LeetCode_Python/0125_ValidPalindrome.py) | O(n) |  O(1) | 🟢 Easy |  Two Pointers |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Python](./LeetCode_Python/0242_ValidAnagram.py) | O(n) |  O(k) |  🟢 Easy | Hash Table |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Python](./LeetCode_Python/0344_ReverseString.py) | O(n) |  O(1) |  🟢 Easy |  |
-| 1002 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Python](./LeetCode_Python/1002_FindCommonCharacters.py) | O(n*k) |  O(1) |  🟢 Easy |  |
+| 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [Python](./LeetCode_Python/1002_FindCommonCharacters.py) | O(n*k) |  O(1) |  🟢 Easy |  |
 
 <br/>
 <div align="right">
