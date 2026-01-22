@@ -12,6 +12,7 @@
 |  #   | Title | solution | Time  | Space | Difficulty | Note |
 | ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Python](./LeetCode_Python/0066_PlusOne.py) | O(n) |  O(1) | 🟢 Easy | Array |
+| 0202 | [Happy Number](https://leetcode.com/problems/happy-number/description/) | [Python](./LeetCode_Python/0202_HappyNumber.py) | O(n) | O(n) | 🟢 Easy |  |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Python](./LeetCode_Python/0412_FizzBuzz.py) | O(n) | O(n) | 🟢 Easy |  |
 
 <br/>

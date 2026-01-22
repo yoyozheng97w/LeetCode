@@ -16,10 +16,10 @@ Example 1:
     Input: n = 19
     Output: true
     Explanation:
-    12 + 92 = 82
-    82 + 22 = 68
-    62 + 82 = 100
-    12 + 02 + 02 = 1
+    1² + 9² = 82
+    8² + 2² = 68
+    6² + 8² = 100
+    1² + 0² + 02 = 1
 
 Example 2:
     Input: n = 2
@@ -31,60 +31,26 @@ Constraints:
 # Complexity:
 #     Time: O(㏒n)
 #     Space: O(㏒n)
-import time
-class Solution1:
+class Solution:
     def isHappy(self, n: int) -> bool:
-        def getDigitSquare(n: int) -> int:
-            sum = 0
-            while(n):
-                sum += pow(n % 10, 2)
-                n = n // 10
-            return sum
-
-        sumSet = set()
-        while (n != 1):
-            n = getDigitSquare(n)
-            if n in sumSet:
-                break
-            else:
-                sumSet.add(n)
+        visit = set()
+        while n not in visit:
+            visit.add(n)
+            n = self.getDigitSquare(n)
+            if n == 1:
+                return True
             
-        if n == 1:
-            return True
-        else:
-            return False
-
-class Solution2:
+        return False
+    
     def getDigitSquare(self, n: int) -> int:
         sum = 0
         while(n):
-            sum += pow(n % 10, 2)
+            sum += (n % 10) ** 2
             n = n // 10
         return sum
 
-    def isHappy(self, n: int) -> bool:
-        sumSet = set()
-        while (n != 1):
-            n = self.getDigitSquare(n)
-            # n = sum(int(i) ** 2 for i in str(n))
-            if n in sumSet:
-                return False
-            else:
-                sumSet.add(n)
-
-        return True
-
 if __name__ == '__main__':
-    s1 = Solution1()
-    t1 = time.time()
+    s1 = Solution()
     print(s1.isHappy(19))
     print(s1.isHappy(2))
     print(s1.isHappy(1111111))
-    print(f"s1 run time: {time.time() - t1}")
-
-    s2 = Solution2()
-    t2 = time.time()
-    print(s2.isHappy(19))
-    print(s2.isHappy(2))
-    print(s2.isHappy(1111111))
-    print(f"s2 run time: {time.time() - t2}")
