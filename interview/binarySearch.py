@@ -1,5 +1,7 @@
-# 例：a = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 """
+給一個已排序好的 list, 返回最接近且小於 target 的值
+
+例: a = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 target = 6
 l = 0, r = 9, mid = 4 -> target < arr[4] = 9
 l = 0, r = 3, mid = 1 -> target > arr[1] = 3
@@ -17,7 +19,7 @@ l = 4, r = 3
 """
 
 # Complexity:
-#     Time: O(n)
+#     Time: O(n²)
 #     Space: O(1)
 class Solution:
     def Bsearch(self, arr: list[int], target: int):
