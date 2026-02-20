@@ -51,6 +51,8 @@ Constraints:
 # Complexity:
 #     Time: O(m)
 #     Space: O(m+n)
+# m: the sum of lengths of all the strings.
+# n: the number of strings..
 class Solution:
     def encode(self, strs: list[str]) -> str:
         res = ""
