@@ -49,8 +49,8 @@ Constraints:
     strs[i] contains any possible characters out of 256 valid ASCII characters.
 """
 # Complexity:
-#     Time: O(㏒n)
-#     Space: O(1)
+#     Time: O(m)
+#     Space: O(m+n)
 class Solution:
     def encode(self, strs: list[str]) -> str:
         res = ""
