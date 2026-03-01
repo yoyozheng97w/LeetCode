@@ -60,6 +60,7 @@
 # String
 |  #   | Title | solution | Time  | Space | Difficulty | Note |
 | ---- | ----- | -------- | ----- | ----- | ---------- | ---- |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./LeetCode_Python/0003_LongestSubstringWithoutRepeatingCharacters.py) | O(n)|  O(n) | 🟡 Medium | Sliding Window|
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./LeetCode_Python/0013_RomanToInteger.py) | O(n)|  O(1) | 🟢 Easy | Hash Table|
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Python](./LeetCode_Python/0014_LongestCommonPrefix.py) | O(n*k)|  O(k) | 🟢 Easy | |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./LeetCode_Python/0049_GroupAnagrams.py) | O(n*k) |  O(n*k) | 🟡 Medium | defalutdict |
